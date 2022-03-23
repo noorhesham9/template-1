@@ -81,4 +81,40 @@ transition: 0.4s;
 height: 2px;
 width: 100%;
 }
+.header .links ul{
+list-style: none;
+margin: 0;
+padding: 0;
+min-width: 200px;
+position: absolute;
+top : calc(100% + 15px);
+background-color: #f6f6f6;
+right: 0;
+ display: none; 
+
+}
+.header .links:hover ul {
+display :block;
+}
+.header .links ul::before{
+    content: "";
+    border: 10px solid;
+    border-color: transparent transparent #f6f6f6 transparent;
+    position:absolute;
+    right: 5px;
+    top :-20px;
+}
+.header .links ul a{
+    display: block;
+    color: #333;
+    transition: 0.4s;
+    text-decoration: none;
+    padding: 15px;
+}
+.header .links ul a:hover{
+    padding-left: 25px;
+}
+.header .links ul li:not(:last-child){
+    border-bottom: 1.2px solid #ddd;
+}
 /* end header */
