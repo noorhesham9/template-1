@@ -8,9 +8,11 @@ body{
 font-family: 'Work Sans', sans-serif;
 }
 /* end global rules */
+/* parent */
 .parent{
     background-color: #eee;
 }
+/* .container */
 .container{
     padding-left: 15px;
     padding-right: 15px;
