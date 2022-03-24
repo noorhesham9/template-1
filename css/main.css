@@ -1,4 +1,5 @@
 /* start global rules */
+
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -43,6 +44,32 @@ font-family: 'Work Sans', sans-serif;
     }
 }
 /* end global rules */
+/* start components  */
+
+.special-heading{
+color: #ebeced;
+font-size: 100px;
+margin: 0;
+text-align: center;
+font-weight: 800;
+}
+.special-heading + p{
+    color: #575757;
+    margin:-30px;
+    text-align: center;
+    font-size: 17px;
+}
+@media(max-width:767px){
+.special-heading{
+    font-size: 60px;
+}
+.special-heading + p{
+    margin: -18px; font-size: 15px;
+}
+}
+
+
+/* end components  */
 /* start header */
 .header{
     padding: 20px;
@@ -183,5 +210,15 @@ align-items: center;
 text-align: center;
 line-height: 1.8;
 color: #777;
-} */
-/* end feature  
+} 
+/* end feature */
+
+   /* start services  */
+   .services{
+          padding-top: 60px;
+    padding-bottom: 60px;
+   }
+.services .container h2{
+    
+}
+   /* emd services */
