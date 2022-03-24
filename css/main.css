@@ -127,15 +127,16 @@ display :block;
     z-index: -2;
     background-image: url(../images/mountain.jpg);
     background-size: cover;
-    height: calc( 100vh - 64px);
-    position: relative;
+    height: calc(100vh - 90px);
+    width: 100%;
 }
 
-.landing .intro-text{
+ .landing .intro-text{
 position :absolute;
     left: 50%;
     top: 45%;
-    transform: translate(-50% , -50%); text-align: center;
+    transform: translate(-50% , -50%);
+     text-align: center;
     width: 320px;
     max-width: 100%;
 }
@@ -149,5 +150,5 @@ line-height: 1.8;
     font-weight: bold;
     font-size: 50px;
    
-}
+} 
 /* end landing */
