@@ -254,6 +254,7 @@ top: 20px;
 margin: 0;
 font-size: small;
 color: #4d4c4c;
+line-height: 1.8;
 }
 .services .container .services-content .jops div{
     position: relative;
@@ -278,7 +279,7 @@ color: #4d4c4c;
     grid-area:squ ;
     width:75% ;
     height: 80%;
-    background-color: #f6f6f6;
+    background-image: url(../images/services.jpg);
     position: relative;
 }
 
@@ -299,7 +300,7 @@ color: #4d4c4c;
 }
 
     .services .container .services-content .jops{
-        height: 700px;
+        height: 650px;
  display: grid;
     grid-template-columns: repeat(14 , calc( 100% / 14 )) ;
     grid-template-rows: repeat(4 ,25%);
@@ -342,3 +343,35 @@ color: #4d4c4c;
 }
 }
  /* end services  */
+ /* start portfolio  */
+ .portfolio
+{
+    padding-top: 60px;
+    padding-bottom:60px ;
+    background-color: #f6f6f6;
+}
+.portfolio .portfolio-content{
+  grid-gap: 20px;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax( 300px , 1fr));
+    margin-top: 80px;
+}
+.portfolio .portfolio-content .card{
+    background-color: white;
+}
+.portfolio .portfolio-content .card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.portfolio .portfolio-content .card .info{
+    padding: 20px;
+}
+.portfolio .portfolio-content .card .info h3{
+margin: 0;
+}
+.portfolio .portfolio-content .card .info p{
+color: #777;
+line-height: 1.8;
+margin-bottom: 0;
+}
+ /* end portfolio  */
