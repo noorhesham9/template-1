@@ -182,8 +182,8 @@ line-height: 1.8;
     font-size: 50px;
 }
 @media (max-width:768px){
-    .landing .intro-text h1{
-        z-index: -1;
+    .header .links{
+       z-index: 2;
     }
 }
 /* end landing */
