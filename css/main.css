@@ -128,11 +128,11 @@ top : calc(100% + 15px);
 background-color: #f6f6f6;
 right: 0;
  display: none; 
-
+z-index:2;
 }
 .header .links:hover ul {
 display :block;
-z-index: 2;
+z-index:2;
 }
 .header .links ul::before{
     content: "";
@@ -148,6 +148,7 @@ z-index: 2;
     transition: 0.4s;
     text-decoration: none;
     padding: 15px;
+    z-index:2;
 }
 .header .links ul a:hover{
     padding-left: 25px;
