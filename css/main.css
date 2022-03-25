@@ -457,3 +457,47 @@ color: #777;
       
  /* end about  */
 
+ /* start contact  */
+ .contacts{
+     padding-top: 60px ;
+     padding-bottom:60px ;
+     background-color: #f6f6f6;
+ }
+ .contacts .info{
+ padding-top: 60px ;
+     padding-bottom:60px ;
+     text-align: center;
+ }
+ .contacts .info .label{
+     font-size: 30px;
+     font-weight: 800;
+     color: #2c4755;
+     letter-spacing: -2px;
+     margin-bottom: 15px;
+ }
+.contacts .info .link{
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    color:var(--main-color);
+}
+.contacts .info .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.contacts .info .social i{
+margin-left: 10px;
+color:#2c4755 ;
+}
+ @media (max-width:767px){
+.contacts .info .link{
+    font-size: 25px;
+}
+.contacts .info .label{ font-size: 20px;}
+.contacts .info .social{font-size: 16px;}
+}
+ /* end contact */
+
