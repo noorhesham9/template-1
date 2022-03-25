@@ -299,7 +299,7 @@ color: #4d4c4c;
 }
 
     .services .container .services-content .jops{
-        height: 420px;
+        height: 600px;
  display: grid;
     grid-template-columns: repeat(14 , calc( 100% / 14 )) ;
     grid-template-rows: repeat(4 ,25%);
@@ -342,4 +342,3 @@ color: #4d4c4c;
 }
 }
  /* end services  */
- 
