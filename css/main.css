@@ -8,7 +8,9 @@
 :root{
     --main-color:#30ccbc;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
 font-family: 'Work Sans', sans-serif;
 }
